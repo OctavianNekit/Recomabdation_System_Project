@@ -4,7 +4,6 @@ import pandas as pd
 from implicit.als import AlternatingLeastSquares
 from implicit.nearest_neighbours import ItemItemRecommender  # нужен для одного трюка
 from implicit.nearest_neighbours import bm25_weight
-# Для работы с матрицами
 from scipy.sparse import csr_matrix
 
 
